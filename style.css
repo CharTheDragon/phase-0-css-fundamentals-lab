@@ -1,5 +1,34 @@
+* {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+} 
+
 body {
   width: 100%;
   height: 100%;
   margin: 0;
+}
+
+a {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: thistle;
+}
+
+figcaption {
+  font-size: 12px;
+}
+
+p.info {
+  margin: auto;
+  width: 800px;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+section div {
+  float: left;
+  width: 25%;
+  padding-bottom: 50px;
+  background-color: rgb(125, 126, 115);
 }
